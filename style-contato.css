@@ -1,27 +1,33 @@
-header {background:#FFFF00;
-    padding: 20px 0;}
-nav li {display: inline;
-margin: 0 0 0 15px;}
-nav a {text-transform: uppercase;
-color: #000000;
-font-weight: bold;
-font-size: 22px;
-text-decoration: none;}
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+header {
+  background:#8A2BE2;
+  padding: 20px, 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
-.produtos{
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+.produtos {
   width: 940px;
   margin: 0 auto;
   padding: 50px 0;
- }
+}
 .produtos li {
   display: inline-block;
   text-align: center;
@@ -29,15 +35,15 @@ nav {
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
-  box-sizing: border-pox;
+  box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 10px;
 }
-.produtos h2 {
+.produtos h2{
   font-size: 30px;
   font-weight: bold;
 }
-.produto-descricao {
+.produtos-descricao {
   font-size: 18px;
 }
 .produto-preco {
@@ -46,14 +52,14 @@ nav {
   margin-top: 10px;
 }
 nav a:hover {
-  color: #C78C19;
+  color: orange;
   text-decoration: underline;
 }
 .produtos li:hover {
-  border-color: #C78C19;
+  border-color: #fff200;
 }
 .produtos li:active {
-  border-color: #088C19;
+  border-color: #fff200;
 }
 .produtos li:hover h2 {
   font-size: 34px;
@@ -65,19 +71,30 @@ footer {
 }
 .copyright {
   color: #FFFFFF;
-  font-size: 13px;
+  fontsize: 13px;
   margin: 20px 0 0;
 }
-main { width:940px; margin:0 auto;}
-
-form { margin: 40px 0;}
-
-form label { display: block; font-size: 20px; margin: 0 0 10px;}
-
-form input { display: block; margin: 0 0 20px; padding: 10px 25px; width: 50%;}
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+form {
+  margin: 40px 0;
+}
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+form input {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
 .enviar {
-  width: 40%;
-  padding: 15px 0;
+  widht: 40%;
+  padding: 15px 0px;
   background: yellow;
   color: black;
   font-weight: bold;
@@ -87,8 +104,7 @@ form input { display: block; margin: 0 0 20px; padding: 10px 25px; width: 50%;}
   transition: 1s all;
   cursor: pointer;
 }
-.enviar:hover{
-  background:darkyellow;
-  transform:scale(1.2);
-}
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
 }
